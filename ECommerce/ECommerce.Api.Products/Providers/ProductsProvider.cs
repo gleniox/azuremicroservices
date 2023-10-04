@@ -26,14 +26,14 @@ namespace ECommerce.Api.Products.Providers
             if (!dbContext.Products.Any())
             {
                 dbContext.Products.Add(new Db.Product { Id = 1, Name = "Keyboard", Price = 20.00M, Inventory = 100 });
-                dbContext.Products.Add(new Db.Product { Id = 1, Name = "Mouse", Price = 5.00M, Inventory = 300 });
-                dbContext.Products.Add(new Db.Product { Id = 1, Name = "Monitor", Price = 200.00M, Inventory = 20 });
-                dbContext.Products.Add(new Db.Product { Id = 1, Name = "CPU", Price = 500.00M, Inventory = 50 });
+                dbContext.Products.Add(new Db.Product { Id = 2, Name = "Mouse", Price = 5.00M, Inventory = 300 });
+                dbContext.Products.Add(new Db.Product { Id = 3, Name = "Monitor", Price = 200.00M, Inventory = 20 });
+                dbContext.Products.Add(new Db.Product { Id = 4, Name = "CPU", Price = 500.00M, Inventory = 50 });
                 dbContext.SaveChanges();
             }
         }
 
-        public async Task<(bool IsSuccess, IEnumerable<Models.Product>, string ErrorMessage)> GetProductsAsync()
+        public async Task<(bool IsSuccess, IEnumerable<Models.Product> Products, string ErrorMessage)> GetProductsAsync()
         {
             try
             {
