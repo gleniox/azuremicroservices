@@ -31,3 +31,6 @@ C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce
 C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce.Api.Search\obj\Debug\net7.0\ECommerce.Api.Search.pdb
 C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce.Api.Search\obj\Debug\net7.0\ECommerce.Api.Search.genruntimeconfig.cache
 C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce.Api.Search\obj\Debug\net7.0\ref\ECommerce.Api.Search.dll
+C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce.Api.Search\bin\Debug\net7.0\Microsoft.Extensions.Http.Polly.dll
+C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce.Api.Search\bin\Debug\net7.0\Polly.dll
+C:\Users\nogueirags\Documents\src\gleniox\azuremicroservices\ECommerce\ECommerce.Api.Search\bin\Debug\net7.0\Polly.Extensions.Http.dll
