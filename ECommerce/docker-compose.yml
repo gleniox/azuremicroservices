@@ -6,3 +6,24 @@ services:
     build:
       context: .
       dockerfile: ECommerce.Api.Customers\Dockerfile
+
+  ecommerce.api.orders:
+    image: ${DOCKER_REGISTRY-}ecommerceapiorders
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+
+
+  ecommerce.api.products:
+    image: ${DOCKER_REGISTRY-}ecommerceapiproducts
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Products\Dockerfile
+
+
+  ecommerce.api.search:
+    image: ${DOCKER_REGISTRY-}ecommerceapisearch
+    build:
+      context: .
+      dockerfile: ECommerce.Api.Search\Dockerfile
+
